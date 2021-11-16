@@ -25,9 +25,9 @@ def send_mail_contract(request):
 
 def email(request):
     context = {
-        'logo': 'https://cdn.discordapp.com/attachments/891039477982699521/908342957701218364/Logo_Icone_fundo_branco.png',
+        'logo': '',
         'id': '02',
-        'tomador': 'Anna',
+        'tomador': 'Astolfo',
         'importancia_segurada': 'teste',
         'tipo_processo': 'teste'
     }
